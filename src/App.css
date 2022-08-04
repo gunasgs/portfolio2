@@ -8,7 +8,7 @@ body {
 
 a {
   color: #34b7a7;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover {
@@ -260,8 +260,16 @@ h6 {
 
 
 
+.card-img-top {
+  height: 300px;
+  width: 100%;
+}
 
+.about-img:hover {
+  transform: scaleX(1.05) scaleY(1.05);
+  transition: all 0.2s ease-in-out;
 
+}
 
 /**
   * Mobile Navigation 
@@ -560,7 +568,7 @@ main {
 }
 
 .about .content {
-  padding-left: 100px;
+
   margin-top: 50px;
 }
 
@@ -1235,4 +1243,19 @@ main {
 #footer .credits a {
   color: #34b7a7;
   text-decoration: none;
+}
+
+/* 
+.card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 0 !important;
+} */
+
+.project-desc {
+  display: none;
+}
+
+.project:hover {
+  transform: scale(1.1);
+  transition: all 0.2s linear;
 }

@@ -12,25 +12,24 @@ function About() {
 
             <div class="row mt-5 mb-5">
               <div class="col-lg-4 mt-5">
-                <img src="img/bg.jpg" class="img-fluid mt-5" alt="pic" />
+                <img
+                  src="img/bg.jpg"
+                  class="img-fluid mt-5 about-img img-thumbnail"
+                  alt="pic"
+                />
               </div>
               <div class="col-lg-8 pt-4 pt-lg-0 content ">
-                <h2>Full Stack Developer</h2>
-                <p class="fst-italic mt-4 mx-5">
-                  Hi, I'm a MERN Stack Developer, passionate about creating{" "}
-                  <br />
-                  and developing web interfaces.I'm fresher in this area of
-                  work.
-                  <br />
-                  My expertise is to create front end , back end , data base ..
+                <h2 className="mx-lg-4">Full Stack Developer</h2>
+                <p class="fst-italic mt-4 mx-lg-5 mx-sm-0 mx-md-0">
+                  Hi ! I'm Gunaseelan.S, as a MERN Developer. I develop web
+                  applications. My core skill is based on JavaScript and I love
+                  to do most of the things using JavaScript. I love to make the
+                  web more open to the world. I am available for any kind of job
+                  opportunity that suits my interests.
                 </p>
                 <div class="row">
-                  <div class="col-lg-6 mx-5">
+                  <div class="col-lg-6 mx-lg-5 mx-sm-0 mx-md-0">
                     <ul>
-                      <li>
-                        <i class="bi bi-rounded-right"></i>{" "}
-                        <strong>Birthday:</strong> 25 March 1998
-                      </li>
                       <li>
                         <i class="bi bi-rounded-right"></i>{" "}
                         <strong>Email:</strong> gunasgs357@gmail.com
@@ -43,7 +42,7 @@ function About() {
 
                     <button class="btn-resume">
                       <a
-                        href="https://drive.google.com/file/d/1tlqDklq4RCD9Bn3q3NH8sAZQlB2omCM9/view?usp=sharing"
+                        href="https://drive.google.com/file/d/18jiP3utcvoURBpSgDtUwQN0Ex8Qf_gLz/view?usp=sharing"
                         target="_blank "
                       >
                         View Resume
@@ -198,7 +197,7 @@ function About() {
             </div>
           </div>
         </section>
-        <section id="about" class="about">
+        {/* <section id="about" class="about">
           <div class="container" data-aos="fade-up">
             <div class="section-title mt-4 pt-4">
               <h2>Certificate</h2>
@@ -215,11 +214,15 @@ function About() {
                 </p>
               </div>
               <div class="col-lg-7">
-                <img src="img/github.jpg" class="img-fluid" alt="" />
+                <img
+                  src="img/github.jpg"
+                  class="img-fluid certificate"
+                  alt="certificate"
+                />
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* 
         <section id="testimonials" class="testimonials">
           <div class="container" data-aos="fade-up">
