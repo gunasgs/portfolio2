@@ -6,7 +6,7 @@ function Footer() {
       <footer id="footer">
         <div class="container">
           <div class="copyright">
-            &copy; Designed by <a href="index.html"> Gunasgs ❤</a>
+            Designed by &copy;<a href="index.html"> Gunasgs </a>
           </div>
         </div>
       </footer>

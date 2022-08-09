@@ -55,6 +55,7 @@ function Contact() {
                   width: "100%",
                   height: "330px",
                 }}
+                title="contact"
                 allowfullscreen
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
