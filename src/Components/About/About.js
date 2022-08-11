@@ -12,7 +12,7 @@ function About() {
 
             <div class="row mt-5  ">
               <div class="col-lg-7 me-5 ">
-                <h2 className="d-flex justify-content-center">
+                <h2 className="d-flex justify-content-start">
                   Full Stack Developer
                 </h2>
                 <p class=" mt-4 about-desc mb-4">
@@ -24,14 +24,12 @@ function About() {
                 </p>
                 <div class="row ">
                   <div class="col-lg-12 d-flex justify-content-center mt-4 ">
-                    <button class="btn-resume">
-                      <a
-                        href="https://drive.google.com/file/d/18jiP3utcvoURBpSgDtUwQN0Ex8Qf_gLz/view?usp=sharing"
-                        target="_blank "
-                      >
-                        View Resume
-                      </a>
-                    </button>
+                    <a
+                      href="https://drive.google.com/file/d/11o1gwl25-H6hA3JnYJRW1YS__pLTkCTJ/view?usp=sharing"
+                      target="_blank "
+                    >
+                      <button class="btn-resume">View Resume</button>
+                    </a>
                   </div>
                 </div>
               </div>

@@ -5,11 +5,11 @@ function Header() {
     <>
       <header id="header" class="fixed-top">
         <div class="container-fluid d-flex justify-content-between align-items-center">
-          <h1 class="logo me-auto me-lg-0">
-            <a href="/" className="text-decoration-none">
+          <p class="logo me-auto me-lg-0">
+            <a href="/" className="text-decoration-none logoo">
               GUNA
             </a>
-          </h1>
+          </p>
 
           {/* <a href="index.html" class="logo">
             <img src="" alt="" class="img-fluid" />

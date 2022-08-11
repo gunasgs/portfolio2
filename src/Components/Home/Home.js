@@ -18,7 +18,7 @@ function Home() {
               <div className="home-item">MERN Stack Developer</div>
             </div>
           </div> */}
-            <h3>Full Stack Developer</h3>
+            <h3 className="home-h3">Full Stack Developer</h3>
             <div class="header-social-links mt-4">
               <a
                 href="https://www.linkedin.com/in/guna-seelan-6b9636212/"
@@ -35,7 +35,7 @@ function Home() {
                 <i class="bi bi-github me-2"></i>
               </a>
             </div>
-            <a href="#about" class="btn-about text-decoration-none">
+            <a href="#about" class="btn-about text-decoration-none ">
               Get Started
             </a>
           </div>

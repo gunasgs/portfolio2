@@ -3,140 +3,92 @@ import React from "react";
 function Skill() {
   return (
     <section id="skills" class="skills">
-      <div class="container mt-5  pt-2 mb-5 pb-5 " data-aos="fade-up">
-        <div class="section-title  mt-lg-5 pt-lg-5 ">
+      <div class="container    pb-5 " data-aos="fade-up">
+        <div class="section-title  mt-lg-5 pt-lg-3 ">
           <h2>Skills</h2>
         </div>
 
-        <div class="row skills-content mt-5 ">
-          <div class="col-lg-6">
-            <div class="progress">
-              <span class="skill">
-                HTML <i class="val">80%</i>
-              </span>
-              <div class="progress-bar-wrap">
-                <div
-                  class="progress-bar progress-bar-striped progress-bar-animated"
-                  role="progressbar"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style={{ width: "80%" }}
-                ></div>
+        <div class="skills-container mt-lg-4">
+          <div class="skills-item">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="devicon-html5-plain colored"></i>
               </div>
+              <label class="skill-name">HTML</label>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="devicon-css3-plain colored"></i>
+              </div>
+              <label class="skill-name">CSS</label>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="devicon-bootstrap-plain colored"></i>
+              </div>
+              <label class="skill-name">Bootstrap</label>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="devicon-materialui-plain colored"></i>
+              </div>
+              <label class="skill-name">Material UI</label>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="devicon-javascript-plain colored"></i>
+              </div>
+              <label class="skill-name">Javascript</label>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon">
+                <i class="devicon-react-original colored"></i>
+              </div>
+              <label class="skill-name">ReactJS</label>
             </div>
 
-            <div class="progress">
-              <span class="skill">
-                CSS<i class="val">80%</i>
-              </span>
-              <div class="progress-bar-wrap">
-                <div
-                  class="progress-bar progress-bar-striped progress-bar-animated"
-                  role="progressbar"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style={{ width: "80%" }}
-                ></div>
+            <div class="skill-card card-br">
+              <div class="skill-icon">
+                <i class="devicon-mysql-plain-wordmark colored"></i>
               </div>
+              <label class="skill-name">MySQL</label>
+            </div>
+            <div class="skill-card ms-5">
+              <div class="skill-icon">
+                <i class="devicon-mongodb-plain colored"></i>
+              </div>
+              <label class="skill-name">MongoDB</label>
+            </div>
+            <div class="skill-card ms-5">
+              <div class="skill-icon">
+                <i class="devicon-express-original-wordmark colored"></i>
+              </div>
+              <label class="skill-name">Express</label>
+            </div>
+            <div class="skill-card card-brr ms-5">
+              <div class="skill-icon">
+                <i class="devicon-nodejs-plain-wordmark colored"></i>
+              </div>
+              <label class="skill-name">NodeJS</label>
             </div>
 
-            <div class="progress">
-              <span class="skill">
-                JAVASCRIPT <i class="val">75%</i>
-              </span>
-              <div class="progress-bar-wrap">
-                <div
-                  class="progress-bar progress-bar-striped progress-bar-animated"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style={{ width: "75%" }}
-                ></div>
+            <div class="skill-card ">
+              <div class="skill-icon">
+                <i class="devicon-git-plain colored"></i>
               </div>
+              <label class="skill-name">Git</label>
             </div>
-            <div class="progress">
-              <span class="skill">
-                REACT <i class="val">75%</i>
-              </span>
-              <div class="progress-bar-wrap">
-                <div
-                  class="progress-bar progress-bar-striped progress-bar-animated"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style={{ width: "75%" }}
-                ></div>
+            <div class="skill-card ms-3 ">
+              <div class="skill-icon">
+                <i class="devicon-heroku-plain colored"></i>
               </div>
+              <label class="skill-name">Heroku</label>
             </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="progress">
-              <span class="skill">
-                NODE <i class="val">75%</i>
-              </span>
-              <div class="progress-bar-wrap">
-                <div
-                  class="progress-bar  progress-bar-striped progress-bar-animated"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style={{ width: "75%" }}
-                ></div>
+            <div class="skill-card ms-3 ">
+              <div class="skill-icon">
+                <i class="devicon-amazonwebservices-original colored"></i>
               </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">
-                {" "}
-                EXPRESS<i class="val">75%</i>
-              </span>
-              <div class="progress-bar-wrap">
-                <div
-                  class="progress-bar  progress-bar-striped progress-bar-animated"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style={{ width: "75%" }}
-                ></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">
-                MYSQL <i class="val">65%</i>
-              </span>
-              <div class="progress-bar-wrap">
-                <div
-                  class="progress-bar  progress-bar-striped progress-bar-animated"
-                  role="progressbar"
-                  aria-valuenow="65"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style={{ width: "65%" }}
-                ></div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">
-                MONGODB <i class="val">75%</i>
-              </span>
-              <div class="progress-bar-wrap">
-                <div
-                  class="progress-bar  progress-bar-striped progress-bar-animated"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style={{ width: "75%" }}
-                ></div>
-              </div>
+              <label class="skill-name">AWS</label>
             </div>
           </div>
         </div>
