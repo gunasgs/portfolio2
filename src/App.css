@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
 
@@ -1073,6 +1079,10 @@ main {
   #hero .container {
     padding-top: 300px;
     padding-right: 30px;
+  }
+
+  .card-1 {
+    margin-left: 50px;
   }
 }
 
