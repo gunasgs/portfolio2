@@ -1077,6 +1077,10 @@ main {
 
 
 @media (max-width: 1404px) {
+  #hero h1 {
+    font-size: 40px;
+  }
+
   #hero .container {
     padding-top: 300px;
     padding-right: 30px;
