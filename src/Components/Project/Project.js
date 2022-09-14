@@ -37,7 +37,7 @@ function Project() {
           <div class="row ">
             {project.map((e) => {
               return (
-                <div class="col-lg-4  col-md-6 col-sm-12 mx-auto project card">
+                <div class="col-lg-6   col-md-12 col-sm-12 mx-auto project card">
                   <div className="project-img imgBox">
                     <img className="project-img" src={e.poster} alt="hotel" />
                     <img className="project-img " src={e.poster2} alt="hotel" />

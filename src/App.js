@@ -12,6 +12,7 @@ function App() {
     <>
       <Header />
       <Home />
+
       <section id="bg">
         <About />
         <Skill />

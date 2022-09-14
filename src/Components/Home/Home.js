@@ -35,7 +35,7 @@ function Home() {
                 <i class="bi bi-github me-2"></i>
               </a>
             </div>
-            <a href="#about" class="btn-about text-decoration-none ">
+            <a href="#about" class="btn-about ">
               Get Started
             </a>
           </div>

@@ -44,11 +44,7 @@ p {
   margin-top: 50px;
 }
 
-@media (max-width: 992px) {
-  #main {
-    margin-top: 30px;
-  }
-}
+
 
 /*--------------------------------------------------------------
   # Preloader
@@ -169,11 +165,6 @@ p {
 
 }
 
-@media (max-width: 992px) {
-  #header .logo {
-    font-size: 28px;
-  }
-}
 
 .ityped-cursor {
   animation: blink 1s infinite;
@@ -313,15 +304,6 @@ p {
   color: #fff;
 }
 
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-
-  .navbar ul {
-    display: none;
-  }
-}
 
 .navbar-mobile {
   position: fixed;
@@ -382,8 +364,9 @@ p {
 .home-container {
   width: 100%;
   height: 100vh;
-  background: url("../public/img/bgg.jpg") center top;
+  background: url("../public/img/bgg.jpg") top;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .home-h1,
@@ -418,12 +401,7 @@ p {
   position: relative;
 }
 
-@media (max-width: 992px) {
-  #hero .container {
-    padding-top: 170px;
-    padding-right: 40px;
-  }
-}
+
 
 #hero h1 {
   margin: 0;
@@ -461,11 +439,11 @@ a:hover {
 #hero .btn-about {
   font-family: 'Merriweather', serif;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 20px;
+
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
@@ -478,25 +456,7 @@ a:hover {
   color: #ffffff;
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
 
-@media (max-width: 992px) {
-  #hero:before {
-    content: "";
-
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-
-}
 
 /*--------------------------------------------------------------
   # Sections General
@@ -630,7 +590,7 @@ main {
 .skill-card {
   width: -webkit-max-content;
   width: max-content;
-  padding: 0 30px;
+  padding: 0px 30px;
   height: 140px;
   display: flex;
   justify-content: center;
@@ -651,6 +611,8 @@ main {
   padding: 0 5px;
 
 }
+
+
 
 .skill-name {
   font-size: 18px;
@@ -1048,9 +1010,73 @@ main {
 .copyright a:hover {
   color: #000000;
 
+
 }
 
 #footer .credits a {
   color: #34b7a7;
   text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  #main {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  #header .logo {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 992px) {
+  #hero:before {
+    content: "";
+
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+}
+
+
+
+
+@media (max-width: 1024px) {
+  #hero .container {
+    padding-top: 170px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero .container {
+    padding-top: 140px;
+    padding-right: 30px;
+  }
+
+  .home-h1 {
+    font-size: 40px;
+  }
 }

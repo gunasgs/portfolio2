@@ -11,13 +11,10 @@ function Header() {
             </a>
           </p>
 
-          {/* <a href="index.html" class="logo">
-            <img src="" alt="" class="img-fluid" />
-          </a> */}
           <nav id="navbar" class="navbar order-last order-lg-0 ">
             <ul>
               <li>
-                <a class=" text-decoration-none" href="#">
+                <a class=" text-decoration-none" href="#hero">
                   Home
                 </a>
               </li>

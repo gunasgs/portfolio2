@@ -3,12 +3,12 @@ import React from "react";
 function Skill() {
   return (
     <section id="skills" class="skills">
-      <div class="container    pb-5 " data-aos="fade-up">
-        <div class="section-title  mt-lg-5 pt-lg-3 ">
+      <div class="container   pb-5 " data-aos="fade-up">
+        <div class="section-title  mt-lg-5 pt-lg-4 ">
           <h2>Skills</h2>
         </div>
 
-        <div class="skills-container mt-lg-4">
+        <div class="skills-container mt-lg-5 mb-lg-4">
           <div class="skills-item">
             <div class="skill-card">
               <div class="skill-icon">
@@ -47,25 +47,25 @@ function Skill() {
               <label class="skill-name">ReactJS</label>
             </div>
 
-            <div class="skill-card card-br">
+            <div class="skill-card ">
               <div class="skill-icon">
                 <i class="devicon-mysql-plain-wordmark colored"></i>
               </div>
               <label class="skill-name">MySQL</label>
             </div>
-            <div class="skill-card ms-5">
+            <div class="skill-card">
               <div class="skill-icon">
                 <i class="devicon-mongodb-plain colored"></i>
               </div>
               <label class="skill-name">MongoDB</label>
             </div>
-            <div class="skill-card ms-5">
+            <div class="skill-card">
               <div class="skill-icon">
                 <i class="devicon-express-original-wordmark colored"></i>
               </div>
               <label class="skill-name">Express</label>
             </div>
-            <div class="skill-card card-brr ms-5">
+            <div class="skill-card ">
               <div class="skill-icon">
                 <i class="devicon-nodejs-plain-wordmark colored"></i>
               </div>
@@ -78,17 +78,11 @@ function Skill() {
               </div>
               <label class="skill-name">Git</label>
             </div>
-            <div class="skill-card ms-3 ">
+            <div class="skill-card ">
               <div class="skill-icon">
                 <i class="devicon-heroku-plain colored"></i>
               </div>
               <label class="skill-name">Heroku</label>
-            </div>
-            <div class="skill-card ms-3 ">
-              <div class="skill-icon">
-                <i class="devicon-amazonwebservices-original colored"></i>
-              </div>
-              <label class="skill-name">AWS</label>
             </div>
           </div>
         </div>
