@@ -691,11 +691,11 @@ main {
   margin-left: 130px;
   align-items: center;
   justify-content: center;
+
 }
 
 .card-1:hover {
   transform: translateX(50%);
-
 
 }
 
@@ -707,7 +707,7 @@ main {
   transform-origin: left;
   transform-style: preserve-3d;
   cursor: pointer;
-  transition: 1s;
+  transition: 2s;
 }
 
 
@@ -725,6 +725,7 @@ main {
   object-fit: cover;
   transform-style: preserve-3d;
   backface-visibility: hidden;
+
 }
 
 
@@ -1083,6 +1084,18 @@ main {
 
   .card-1 {
     margin-left: 50px;
+
+  }
+
+  .card-1:hover {
+    transform: translateX(0%);
+
+  }
+
+  .imgBox img:nth-child(2) {
+    display: none;
+
+
   }
 }
 
