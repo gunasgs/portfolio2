@@ -1,0 +1,99 @@
+/*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+
+
+.home-container {
+    width: 100%;
+    height: 100vh;
+    background: url("/public/img/bgg.jpg") top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-h1,
+.home-h3,
+.home-h {
+    font-family: 'Merriweather', serif;
+}
+
+#bg {
+    background: url(/public/img/about-boxes-bg.jpg) center top no-repeat fixed;
+    background-size: auto;
+
+    position: relative;
+}
+
+#bg::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.92);
+    z-index: 0;
+}
+
+
+
+#hero .container {
+    padding-top: 20%;
+
+    position: relative;
+}
+
+
+
+#hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #222222;
+    letter-spacing: 5px;
+    margin-left: 35px;
+
+}
+
+#hero h1:hover {
+    color: #34b7a7;
+}
+
+#hero h3:hover {
+    color: #34b7a7;
+}
+
+a:hover {
+    color: #34b7a7;
+}
+
+#hero h3 {
+    color: #161515;
+    font-weight: 700;
+    margin: 20px 0 0 45px;
+    letter-spacing: 3px;
+
+}
+
+
+
+#hero .btn-about {
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    background: #34b7a7;
+}
+
+#hero .btn-about:hover {
+    background: #3dc8b7;
+    color: #ffffff;
+}

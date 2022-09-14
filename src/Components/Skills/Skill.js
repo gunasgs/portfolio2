@@ -1,14 +1,14 @@
 import React from "react";
-
+import "./Skills.css";
 function Skill() {
   return (
     <section id="skills" class="skills">
-      <div class="container   pb-5 " data-aos="fade-up">
-        <div class="section-title  mt-lg-5 pt-lg-4 ">
+      <div class="container mt-5  mb-5" data-aos="fade-up">
+        <div class="section-title  mt-lg-5 pt-lg-4 mb-lg-5 ">
           <h2>Skills</h2>
         </div>
 
-        <div class="skills-container mt-lg-5 mb-lg-4">
+        <div class="skills-container mb-3">
           <div class="skills-item">
             <div class="skill-card">
               <div class="skill-icon">

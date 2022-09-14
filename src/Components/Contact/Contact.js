@@ -1,7 +1,7 @@
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import React, { useRef } from "react";
-
+import "./Contact.css";
 const Result = () => {
   return (
     <p className="text-success font-weight-bold">
@@ -41,8 +41,8 @@ function Contact() {
   return (
     <>
       <main id="main">
-        <div id="contact" class="contact ">
-          <div class="container" data-aos="fade-up">
+        <div id="contact" class="contact mt-5">
+          <div class="container mt-5 mb-4 " data-aos="fade-up">
             <div class="section-title mt-2 mb-4">
               <h2>Contact</h2>
             </div>
@@ -66,7 +66,9 @@ function Contact() {
                 <div class="info">
                   <div class="address">
                     <i class="bi bi-geo-alt"></i>
+
                     <h4>Location</h4>
+
                     <p>Dharmapuri</p>
                   </div>
 
@@ -133,7 +135,9 @@ function Contact() {
                       Send Message
                     </button>
                   </div>
-                  <div className="result">{result ? <Result /> : ""}</div>
+                  <div className="result d-flex align-items-center justify-content-center">
+                    {result ? <Result /> : ""}
+                  </div>
                 </form>
               </div>
             </div>

@@ -1,0 +1,57 @@
+/*--------------------------------------------------------------
+  # Skills
+  --------------------------------------------------------------*/
+
+
+.skills-item {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-card {
+    width: -webkit-max-content;
+    width: max-content;
+    padding: 0px 30px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-card:hover {
+    transform: scale(1.1);
+    transition: all .1s ease;
+}
+
+.skill-icon {
+    font-size: 70px;
+    color: #ffff;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    padding: 0 5px;
+
+}
+
+
+
+.skill-name {
+    font-size: 18px;
+    color: rgb(112, 112, 112);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    font-weight: 400;
+}
+
+
+.card-br {
+    margin-left: 100px;
+}
+
+.card-brr {
+    margin-right: 100px;
+}

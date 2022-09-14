@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Project.css";
 function Project() {
   let project = [
     {
@@ -28,16 +28,16 @@ function Project() {
   ];
   return (
     <>
-      <section id="project" class="skills">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title   mb-5  ">
-            <h2 className="mt-5">Project</h2>
+      <section id="project" class="projects">
+        <div class="container mt-5 " data-aos="fade-up">
+          <div class="section-title  mt-5 mb-5  ">
+            <h2>Project</h2>
           </div>
 
           <div class="row ">
             {project.map((e) => {
               return (
-                <div class=" col-lg-6   col-md-12 col-sm-12 card-container">
+                <div class=" col-lg-6   col-md-12 col-sm-12 card-container    ">
                   <div class="card-1">
                     <div className="project-img imgBox">
                       <img

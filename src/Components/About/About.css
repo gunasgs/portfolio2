@@ -1,0 +1,46 @@
+.about .content h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #020202;
+    text-align: center;
+
+}
+
+
+.about-desc {
+    text-align: justify;
+    margin-left: 0;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 500;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+
+.btn-resume {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 50px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: #3dc8b7;
+    border: 0;
+
+
+}
+
+.btn-resume:hover {
+    background: #34b7a7;
+    color: rgb(0, 0, 0);
+}

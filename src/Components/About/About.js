@@ -1,12 +1,12 @@
 import React from "react";
-
+import "./About.css";
 function About() {
   return (
     <>
       <main id="main ">
         <section id="about" class="about">
-          <div class="container mb-5 pb-3 mt-5" data-aos="fade-up">
-            <div class="section-title mt-lg-3 pt-lg-3  ">
+          <div class="container  mt-5" data-aos="fade-up">
+            <div class="section-title mt-lg-3 pt-lg-3 mb-5 ">
               <h2>About</h2>
             </div>
 
