@@ -5,6 +5,7 @@
 }
 
 
+
 .navbaritems {
     display: flex;
     align-items: center;
@@ -23,10 +24,29 @@
 .logo {
     color: #222222;
     font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    padding: 0 20px;
+
+    padding: 0 30px;
+
+
+
+
+
+
+}
+
+.logoo {
+    background: rgb(52, 183, 167, 0.8);
+    padding: 0px 10px;
+    border-radius: 50%;
+    color: rgb(34, 34, 34, 0.8);
     font-size: 2rem;
-    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.logoo:hover {
+    color: #ffffff;
+    background: #34b7a7;
+
 }
 
 .navmenu {
@@ -55,12 +75,14 @@
 .nav-link:hover {
     color: #34b7a7 !important;
     transform: none;
+    font-weight: 500;
 
 }
 
 .nav-btn {
     display: none;
 }
+
 
 @media screen and (max-width: 1000px) {
 

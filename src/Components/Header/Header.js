@@ -8,8 +8,8 @@ function Header() {
     <>
       <nav class="navbaritems ">
         <div className="logo">
-          <a className="logo" href="/">
-            GUNA
+          <a className="logoo" href="/">
+            G
           </a>
         </div>
 
