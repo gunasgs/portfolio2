@@ -5,7 +5,7 @@ function About() {
     <>
       <main id="main ">
         <section id="about" class="about">
-          <div class="container  mt-5" data-aos="fade-up">
+          <div class="container  mt-5 pt-3" data-aos="fade-up">
             <div class="section-title mt-lg-3 pt-lg-3 mb-5 ">
               <h2>About</h2>
             </div>

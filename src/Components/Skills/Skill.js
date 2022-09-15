@@ -3,7 +3,7 @@ import "./Skills.css";
 function Skill() {
   return (
     <section id="skills" class="skills">
-      <div class="container mt-5  mb-5" data-aos="fade-up">
+      <div class="container mt-5  mb-5 pt-3" data-aos="fade-up">
         <div class="section-title  mt-lg-5 pt-lg-4 mb-lg-5 ">
           <h2>Skills</h2>
         </div>

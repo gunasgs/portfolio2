@@ -24,12 +24,7 @@
 .logo {
     color: #222222;
     font-family: 'Playfair Display', serif;
-
-    padding: 0 30px;
-
-
-
-
+    padding-left: 30px;
 
 
 }
@@ -96,7 +91,7 @@
         background: transparent;
         position: fixed;
         right: 30px;
-        top: 5px;
+        top: 8px;
     }
 
     .logo {
@@ -110,7 +105,7 @@
         justify-content: center;
         width: 100%;
         left: 110%;
-
+        padding: 0;
         position: absolute;
         top: 0;
 
@@ -125,7 +120,7 @@
 
     .active {
         left: 0%;
-        padding-top: 50px;
+        padding-top: 55px;
     }
 
     .navmenu li {
