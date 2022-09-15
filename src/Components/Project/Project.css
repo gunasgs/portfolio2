@@ -153,23 +153,10 @@
 }
 
 @media only screen and (max-width: 800px) {
-    #hero h1 {
-        font-size: 40px;
-    }
-
-    #hero .container {
-        padding-top: 250px;
-        padding-right: 30px;
-    }
 
     .card-1 {
         margin: auto;
         margin-bottom: 50px;
 
     }
-
-
-
-
-
 }

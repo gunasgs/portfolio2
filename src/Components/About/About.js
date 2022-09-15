@@ -16,11 +16,11 @@ function About() {
                   Full Stack Developer
                 </h2>
                 <p class=" mt-4 about-desc mb-4">
-                  Hi ! I'm Gunaseelan.S, as a MERN Developer. I develop web
-                  applications. My core skill is based on JavaScript and I love
-                  to do most of the things using JavaScript. I love to make the
-                  web more open to the world. I am available for any kind of job
-                  opportunity that suits my interests.
+                  Hi I'm Gunaseelan.S, as a MERN Developer. A highly result
+                  oriented Engineering graduate with strong understanding of
+                  client and server communication.Passion towards developing web
+                  applications seeking for opportunity in an organization to
+                  learn and grow with knowledge
                 </p>
                 <div class="row ">
                   <div class="col-lg-12 d-flex justify-content-center mt-4 ">

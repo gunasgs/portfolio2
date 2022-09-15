@@ -280,3 +280,15 @@ main {
 
 
 }
+
+@media only screen and (max-width:795px) {
+  .card-1:hover {
+    transform: translateX(0%);
+
+  }
+
+  .imgBox img:nth-child(2) {
+    display: none;
+  }
+
+}

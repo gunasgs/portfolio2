@@ -11,7 +11,7 @@ function Project() {
       frontend: "https://github.com/gunasgs/Project-Hotel-Management-Frontend",
       backend: "https://github.com/gunasgs/Project-Hotel-Management-Backend",
       live: "https://project-hotel-management.netlify.app",
-      des: "Developed MERN Stack Application Where User Can Register And Login. Admin Can Control Room Details Are In CRUD Function.The Booking Status Can Be Check In And Check Out.Booking Details Are Also Un CRUD Function.",
+      des: "Developed MERN Stack Application where user can Register and Login.Admin can control room details are in CRUD function.The booking status can be Check In and Check Out.Booking details are also un CRUD function.",
     },
     {
       title: "Netflix-clone",
@@ -23,7 +23,7 @@ function Project() {
 
       frontend: "https://github.com/gunasgs/netflix-clone",
       backend: "https://github.com/gunasgs/Netflix-Backend",
-      des: "Developed MERN Stack Application For  Movie Details With CRUD Function Where User Can Register And Login Which Include Play Option In Netlify Movies",
+      des: "Developed MERN Stack Application for  movie details with CRUD function where user can Register and Login which include play option in Netlify movies",
     },
   ];
   return (

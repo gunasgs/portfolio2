@@ -75,7 +75,16 @@ function Contact() {
                   <div class="email">
                     <i class="bi bi-envelope"></i>
                     <h4>Email</h4>
-                    <p>gunasgs357@gmail.com</p>
+                    <p>
+                      <a
+                        href="mailto:gunasgs357@gmail.com"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="link"
+                      >
+                        gunasgs357@gmail.com
+                      </a>
+                    </p>
                   </div>
 
                   <div class="phone">

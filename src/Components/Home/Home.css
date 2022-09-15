@@ -61,10 +61,25 @@
 }
 
 #hero h3:hover {
-    color: #34b7a7;
+    color: rgb(52, 183, 167);
 }
 
 a:hover {
+    color: rgb(52, 183, 167);
+}
+
+.header-social-links a {
+    color: #1a1919;
+    padding-left: 12px;
+    display: inline-block;
+    line-height: 0px;
+    transition: 0.3s;
+    font-size: 33px;
+
+
+}
+
+.header-social-links a:hover {
     color: #34b7a7;
 }
 
@@ -96,4 +111,70 @@ a:hover {
 #hero .btn-about:hover {
     background: #3dc8b7;
     color: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+    #hero .container {
+        padding-top: 170px;
+        padding-right: 30px;
+    }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    #hero h1 {
+        font-size: 40px;
+    }
+
+    #hero .container {
+        padding-top: 300px;
+        padding-right: 30px;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    #hero .container {
+        padding-top: 140px;
+        padding-right: 30px;
+    }
+
+    #hero .btn-about {
+
+        margin-top: 20px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 375px) {
+
+
+    #hero h3 {
+        margin: 0;
+        padding: 10px 0px 0px 30px;
+
+
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    #hero h1 {
+        font-size: 35px;
+    }
+
+    #hero h3 {
+
+        letter-spacing: 0px;
+    }
+
 }
