@@ -113,7 +113,7 @@ a:hover {
     color: #ffffff;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1040px) {
 
 
     #hero .container {
@@ -141,7 +141,7 @@ a:hover {
 
 
     #hero .container {
-        padding-top: 140px;
+        padding-top: 300px;
         padding-right: 30px;
     }
 
