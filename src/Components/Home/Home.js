@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
-
+import Zoom from "react-reveal/Zoom";
+import Slide from "react-reveal/Slide";
 function Home() {
   return (
     <>
@@ -11,9 +12,13 @@ function Home() {
             data-aos="zoom-in"
             data-aos-delay="100"
           >
-            <h1 className="home-h1">GUNASEELAN</h1>
+            <Zoom top cascade>
+              <h1 className="home-h1">GUNASEELAN</h1>
+            </Zoom>
+            <Zoom top cascade>
+              <h3 className="home-h3">Full Stack Developer</h3>
+            </Zoom>
 
-            <h3 className="home-h3">Full Stack Developer</h3>
             <div class="header-social-links mt-4">
               <a
                 href="https://github.com/gunasgs"
@@ -40,8 +45,11 @@ function Home() {
                 <i class="bi bi-linkedin me-2"></i>
               </a>
             </div>
+
             <a href="#about" class="btn-about ">
-              Get Started
+              <Zoom top cascade>
+                Get Started
+              </Zoom>
             </a>
           </div>
         </div>

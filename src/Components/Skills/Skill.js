@@ -1,5 +1,6 @@
 import React from "react";
 import "./Skills.css";
+import LightSpeed from "react-reveal/LightSpeed";
 function Skill() {
   return (
     <section id="skills" class="skills">
@@ -8,84 +9,86 @@ function Skill() {
           <h2>Skills</h2>
         </div>
 
-        <div class="skills-container mb-3">
-          <div class="skills-item">
-            <div class="skill-card">
-              <div class="skill-icon">
-                <i class="devicon-html5-plain colored"></i>
+        <LightSpeed bottom>
+          <div class="skills-container mb-3">
+            <div class="skills-item">
+              <div class="skill-card">
+                <div class="skill-icon">
+                  <i class="devicon-html5-plain colored"></i>
+                </div>
+                <label class="skill-name">HTML</label>
               </div>
-              <label class="skill-name">HTML</label>
-            </div>
-            <div class="skill-card">
-              <div class="skill-icon">
-                <i class="devicon-css3-plain colored"></i>
+              <div class="skill-card">
+                <div class="skill-icon">
+                  <i class="devicon-css3-plain colored"></i>
+                </div>
+                <label class="skill-name">CSS</label>
               </div>
-              <label class="skill-name">CSS</label>
-            </div>
-            <div class="skill-card">
-              <div class="skill-icon">
-                <i class="devicon-bootstrap-plain colored"></i>
+              <div class="skill-card">
+                <div class="skill-icon">
+                  <i class="devicon-bootstrap-plain colored"></i>
+                </div>
+                <label class="skill-name">Bootstrap</label>
               </div>
-              <label class="skill-name">Bootstrap</label>
-            </div>
-            <div class="skill-card">
-              <div class="skill-icon">
-                <i class="devicon-materialui-plain colored"></i>
+              <div class="skill-card">
+                <div class="skill-icon">
+                  <i class="devicon-materialui-plain colored"></i>
+                </div>
+                <label class="skill-name">Material UI</label>
               </div>
-              <label class="skill-name">Material UI</label>
-            </div>
-            <div class="skill-card">
-              <div class="skill-icon">
-                <i class="devicon-javascript-plain colored"></i>
+              <div class="skill-card">
+                <div class="skill-icon">
+                  <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <label class="skill-name">Javascript</label>
               </div>
-              <label class="skill-name">Javascript</label>
-            </div>
-            <div class="skill-card">
-              <div class="skill-icon">
-                <i class="devicon-react-original colored"></i>
+              <div class="skill-card">
+                <div class="skill-icon">
+                  <i class="devicon-react-original colored"></i>
+                </div>
+                <label class="skill-name">ReactJS</label>
               </div>
-              <label class="skill-name">ReactJS</label>
-            </div>
 
-            <div class="skill-card ">
-              <div class="skill-icon">
-                <i class="devicon-mysql-plain-wordmark colored"></i>
+              <div class="skill-card ">
+                <div class="skill-icon">
+                  <i class="devicon-mysql-plain-wordmark colored"></i>
+                </div>
+                <label class="skill-name">MySQL</label>
               </div>
-              <label class="skill-name">MySQL</label>
-            </div>
-            <div class="skill-card">
-              <div class="skill-icon">
-                <i class="devicon-mongodb-plain colored"></i>
+              <div class="skill-card">
+                <div class="skill-icon">
+                  <i class="devicon-mongodb-plain colored"></i>
+                </div>
+                <label class="skill-name">MongoDB</label>
               </div>
-              <label class="skill-name">MongoDB</label>
-            </div>
-            <div class="skill-card">
-              <div class="skill-icon">
-                <i class="devicon-express-original-wordmark colored"></i>
+              <div class="skill-card">
+                <div class="skill-icon">
+                  <i class="devicon-express-original-wordmark colored"></i>
+                </div>
+                <label class="skill-name">Express</label>
               </div>
-              <label class="skill-name">Express</label>
-            </div>
-            <div class="skill-card ">
-              <div class="skill-icon">
-                <i class="devicon-nodejs-plain-wordmark colored"></i>
+              <div class="skill-card ">
+                <div class="skill-icon">
+                  <i class="devicon-nodejs-plain-wordmark colored"></i>
+                </div>
+                <label class="skill-name">NodeJS</label>
               </div>
-              <label class="skill-name">NodeJS</label>
-            </div>
 
-            <div class="skill-card ">
-              <div class="skill-icon">
-                <i class="devicon-git-plain colored"></i>
+              <div class="skill-card ">
+                <div class="skill-icon">
+                  <i class="devicon-git-plain colored"></i>
+                </div>
+                <label class="skill-name">Git</label>
               </div>
-              <label class="skill-name">Git</label>
-            </div>
-            <div class="skill-card ">
-              <div class="skill-icon">
-                <i class="devicon-heroku-plain colored"></i>
+              <div class="skill-card ">
+                <div class="skill-icon">
+                  <i class="devicon-heroku-plain colored"></i>
+                </div>
+                <label class="skill-name">Heroku</label>
               </div>
-              <label class="skill-name">Heroku</label>
             </div>
           </div>
-        </div>
+        </LightSpeed>
       </div>
     </section>
   );
