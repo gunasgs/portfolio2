@@ -47,9 +47,7 @@ function Home() {
             </div>
 
             <a href="#about" class="btn-about ">
-              <Zoom top cascade>
-                Get Started
-              </Zoom>
+              Get Started
             </a>
           </div>
         </div>

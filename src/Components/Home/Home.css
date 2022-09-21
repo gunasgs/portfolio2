@@ -140,13 +140,13 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
     #hero h1 {
-        font-size: 3.1rem;
+
         text-align: center;
     }
 
 
     #hero h3 {
-        font-size: 1.6rem;
+
         margin-top: 50px;
         text-align: center;
 
@@ -159,8 +159,8 @@ a:hover {
     }
 
     .header-social-links a {
-        padding: 0 30px;
-        padding-bottom: 50px;
+        padding: 0 20px;
+
     }
 
 
@@ -172,7 +172,7 @@ a:hover {
 
     #hero .btn-about {
 
-        margin-top: 20px;
+        margin-top: 50px;
 
     }
 
