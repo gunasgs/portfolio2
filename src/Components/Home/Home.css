@@ -116,8 +116,9 @@ a:hover {
 @media only screen and (max-width: 1040px) {
 
 
+
     #hero .container {
-        padding-top: 170px;
+        padding-top: 140px;
         padding-right: 30px;
     }
 
@@ -138,11 +139,34 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    #hero h1 {
+        font-size: 3.1rem;
+        text-align: center;
+    }
+
+
+    #hero h3 {
+        font-size: 1.6rem;
+        margin-top: 50px;
+        text-align: center;
+
+
+    }
+
+    .header-social-links {
+        padding-top: 50px;
+    }
+
+    .header-social-links a {
+        padding: 0 30px;
+        padding-bottom: 50px;
+    }
+
 
 
     #hero .container {
-        padding-top: 300px;
-        padding-right: 30px;
+        padding-top: 280px;
+
     }
 
     #hero .btn-about {
