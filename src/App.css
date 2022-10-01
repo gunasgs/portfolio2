@@ -10,6 +10,21 @@
 body {
   font-family: 'Nunito', sans-serif;
   scroll-behavior: smooth;
+  font-family: 'Nunito', sans-serif;
+  background: url(/public/img/about-boxes-bg.jpg) center top no-repeat fixed;
+  background-size: auto;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.92);
+  z-index: 0;
 }
 
 ::-webkit-scrollbar {
@@ -25,21 +40,9 @@ a {
   text-decoration: none !important;
 }
 
-a:hover {
-  color: #51cdbe;
-  text-decoration: none;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-p {
-  font-family: 'Nunito', sans-serif;
-}
+
+
 
 #main {
   margin-top: 50px;

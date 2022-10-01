@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
@@ -11,16 +12,15 @@ function App() {
   return (
     <>
       <Header />
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skill />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
 
-      <section id="bg">
-        <About />
-        <Skill />
-        <Project />
-        <Contact />
-
-        <Footer />
-      </section>
+      <Footer />
     </>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
@@ -6,44 +7,48 @@ function Header() {
   window.addEventListener("scroll", () => setNav(false));
   return (
     <>
-      <nav class="navbaritems ">
+      <nav className="navbaritems ">
         <div className="logo">
-          <a className="logoo" href="/">
+          <Link className="logoo" to="/">
             G
-          </a>
+          </Link>
         </div>
 
         <ul className={nav ? "navmenu active" : "navmenu"}>
           <li>
-            <a class="nav-link" href="#hero">
+            <Link className="nav-link" to="/">
               Home
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a class="nav-link" href="#about">
+            <Link className="nav-link" to="/about">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="nav-link" href="#skills">
+            <Link className="nav-link" to="/skills">
               Skills
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="nav-link" href="#project">
+            <Link className="nav-link" to="/project">
               Project
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="nav-link" href="#contact">
+            <Link className="nav-link" to="/contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="nav-btn">
           <button className="nav-btn " onClick={() => setNav(!nav)}>
-            {nav ? <i class="bi bi-x-lg"></i> : <i class="bi bi-list "></i>}
+            {nav ? (
+              <i className="bi bi-x-lg"></i>
+            ) : (
+              <i className="bi bi-list "></i>
+            )}
           </button>
         </div>
       </nav>

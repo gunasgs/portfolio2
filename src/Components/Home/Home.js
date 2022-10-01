@@ -1,14 +1,18 @@
 import React from "react";
 import "./Home.css";
 import Zoom from "react-reveal/Zoom";
-import Slide from "react-reveal/Slide";
+import About from "../About/About";
+import Skill from "../Skills/Skill";
+import Project from "../Project/Project";
+import Contact from "../Contact/Contact";
+
 function Home() {
   return (
     <>
-      <section id="hero" class="d-flex align-items-center ">
+      <section id="hero" className="d-flex align-items-center ">
         <div className="home-container">
           <div
-            class="container d-flex flex-column align-items-center "
+            className="container d-flex flex-column align-items-center "
             data-aos="zoom-in"
             data-aos-delay="100"
           >
@@ -19,39 +23,43 @@ function Home() {
               <h3 className="home-h3">Full Stack Developer</h3>
             </Zoom>
 
-            <div class="header-social-links mt-4">
+            <div className="header-social-links mt-4">
               <a
                 href="https://github.com/gunasgs"
                 target="_blank"
-                class="github"
+                className="github"
                 rel="noreferrer"
               >
-                <i class="bi bi-github me-2"></i>
+                <i className="bi bi-github me-2"></i>
               </a>
               <a
                 href="mailto:gunasgs357@gmail.com"
                 target="_blank"
                 rel="noreferrer"
-                class="gmail"
+                className="gmail"
               >
-                <i class="bi bi-envelope-fill me-2"></i>
+                <i className="bi bi-envelope-fill me-2"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/guna-seelan-6b9636212/"
                 target="_blank"
-                class="linkedin"
+                className="linkedin"
                 rel="noreferrer"
               >
-                <i class="bi bi-linkedin me-2"></i>
+                <i className="bi bi-linkedin me-2"></i>
               </a>
             </div>
 
-            <a href="#about" class="btn-about ">
+            <a href="#about" className="btn-about ">
               Get Started
             </a>
           </div>
         </div>
       </section>
+      <About />
+      <Skill />
+      <Project />
+      <Contact />
     </>
   );
 }
