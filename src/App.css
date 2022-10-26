@@ -158,7 +158,7 @@ a {
   width: 50px;
   height: 3px;
   background: #34b7a7;
-  bottom: 0;
+  bottom: -10px;
   left: calc(50% - 25px);
 }
 
