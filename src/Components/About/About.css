@@ -7,17 +7,20 @@
 }
 
 
-.about-desc {
+.about-ul {
+    list-style: none;
     text-align: justify;
-    margin-left: 0;
-    letter-spacing: 1px;
+    letter-spacing: .5px;
+    text-transform: capitalize;
     line-height: 35px;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 500;
-
     font-family: 'Nunito', sans-serif;
 }
 
+.about-ul li{
+    padding: 10px 0;
+}
 
 
 
@@ -39,7 +42,16 @@
 
 
 }
-
+.particles-box {
+    width: 100vw;
+    height: 100vh;
+    background: #111;
+    margin: 0 auto;
+}
+.particles-js-canvas-el{
+    height: 100%;
+    width: 100%;
+}
 .btn-resume:hover {
     background: #34b7a7;
     color: rgb(0, 0, 0);

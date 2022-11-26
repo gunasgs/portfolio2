@@ -1,12 +1,14 @@
 /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
+
 .home-container {
     width: 100%;
     height: 100vh;
     background: url("/public/img/bgg.jpg") top;
     background-size: cover;
     background-repeat: no-repeat;
+    user-select: none;
     z-index: 9;
 }
 
@@ -15,7 +17,13 @@
 .home-h {
     font-family: "Merriweather", serif;
 }
-
+.home-h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 40px;
+    animation: spin 2s infinite linear alternate;
+}
 #bg {
     background: url(/public/img/about-boxes-bg.jpg) center top no-repeat fixed;
     background-size: auto;
@@ -47,6 +55,8 @@
     color: #222222;
     letter-spacing: 5px;
     margin-left: 35px;
+    animation: spin 2s infinite linear alternate;
+
 }
 
 #hero h1:hover {
@@ -63,11 +73,12 @@ a:hover {
 
 .header-social-links a {
     color: #1a1919;
-    padding-left: 12px;
+    padding-left: 15px;
     display: inline-block;
     line-height: 0px;
     transition: 0.3s;
     font-size: 33px;
+    animation: spin 2s infinite linear alternate;
 }
 
 .header-social-links a:hover {
@@ -94,6 +105,8 @@ a:hover {
     margin-top: 30px;
     color: rgb(0, 0, 0);
     background: #34b7a7;
+    
+    
 }
 
 #hero .btn-about:hover {
@@ -101,6 +114,15 @@ a:hover {
     color: #ffffff;
 }
 
+@keyframes spin {
+    from{
+       
+    }
+    to{
+        
+        color:#3dc8b7;
+    }
+}
 @media only screen and (max-width: 1040px) {
     #hero .container {
         padding-top: 140px;
@@ -124,9 +146,12 @@ a:hover {
         text-align: center;
     }
 
-    #hero h3 {
-        margin-top: 50px;
+    .home-h3 {
+      
         text-align: center;
+        padding: 0;
+        margin:50px  0 0 0;
+        
     }
 
     .header-social-links {

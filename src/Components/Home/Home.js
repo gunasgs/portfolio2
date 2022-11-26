@@ -5,6 +5,7 @@ import About from "../About/About";
 import Skill from "../Skills/Skill";
 import Project from "../Project/Project";
 import Contact from "../Contact/Contact";
+import Text from "./Text";
 
 function Home() {
   return (
@@ -20,7 +21,9 @@ function Home() {
               <h1 className="home-h1">GUNASEELAN</h1>
             </Zoom>
             <Zoom top cascade>
-              <h3 className="home-h3">Full Stack Developer</h3>
+              <div className="home-h3">
+                <Text />
+              </div>
             </Zoom>
 
             <div className="header-social-links mt-4">
@@ -30,7 +33,7 @@ function Home() {
                 className="github"
                 rel="noreferrer"
               >
-                <i className="bi bi-github me-2"></i>
+                <i className="bi bi-github me-2 home-ic"></i>
               </a>
               <a
                 href="mailto:gunasgs357@gmail.com"
@@ -38,7 +41,7 @@ function Home() {
                 rel="noreferrer"
                 className="gmail"
               >
-                <i className="bi bi-envelope-fill me-2"></i>
+                <i className="bi bi-envelope-fill me-2  home-ic"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/guna-seelan-6b9636212/"
@@ -46,7 +49,7 @@ function Home() {
                 className="linkedin"
                 rel="noreferrer"
               >
-                <i className="bi bi-linkedin me-2"></i>
+                <i className="bi bi-linkedin me-2  "></i>
               </a>
             </div>
 

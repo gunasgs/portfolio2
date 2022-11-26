@@ -12,18 +12,26 @@ function About() {
                 <h2>About</h2>
               </div>
 
-              <div className="row mt-5  ">
+              <div className="row mt-3  ">
                 <div className="col-lg-7 me-5 ">
-                  <h2 className="d-flex justify-content-start">
-                    Full Stack Developer
-                  </h2>
-                  <p className=" mt-4 about-desc mb-4">
-                    Hi I'm Gunaseelan.S, as a MERN Developer. A highly result
-                    oriented Engineering graduate with strong understanding of
-                    client and server communication.Passion towards developing
-                    web applications seeking for opportunity in an organization
-                    to learn and grow with knowledge
-                  </p>
+                  <ul className="about-ul">
+                    <li>
+                      A highly result oriented Engineering graduate with strong
+                      understanding of client and server communication
+                    </li>
+
+                    <li>
+                      My field of Interest are building new Web Technologies,
+                      Products and also in areas related to Deep Learning and
+                      Natural Launguage Processing.
+                    </li>
+                    <li>
+                      Whenever possible, I also apply my passion for developing
+                      products with NodeJS and Modern Javascript Library and
+                      Frameworks like ReactJS
+                    </li>
+                  </ul>
+
                   <div className="row ">
                     <div className="col-lg-12 d-flex justify-content-center mt-4 ">
                       <a
