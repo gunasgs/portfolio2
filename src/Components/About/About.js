@@ -35,7 +35,7 @@ function About() {
                   <div className="row ">
                     <div className="col-lg-12 d-flex justify-content-center mt-4 ">
                       <a
-                        href="https://drive.google.com/file/d/11o1gwl25-H6hA3JnYJRW1YS__pLTkCTJ/view?usp=sharing"
+                        href="https://drive.google.com/file/d/14xPpnW57oL6FLmm2wBbNkQWGtX9ylbp3/view?usp=share_link"
                         target="_blank "
                       >
                         <button className="btn-resume">View Resume</button>
