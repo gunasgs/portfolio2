@@ -7,8 +7,8 @@ function About() {
       <Fade bottom>
         <main id="main ">
           <section id="about" className="about mb-4 pb-3">
-            <div className="container  mt-5 pt-4" data-aos="fade-up">
-              <div className="section-title mt-lg-3 pt-lg-3 mb-5 ">
+            <div className="container  mt-4 pt-4" data-aos="fade-up">
+              <div className="section-title mt-lg-3 pt-lg-3 mb-4 ">
                 <h2>About</h2>
               </div>
 
@@ -45,7 +45,7 @@ function About() {
                 </div>
                 <div className="col-lg-4 ">
                   <img
-                    src="img/bg.jpg"
+                    src="img/Guna photo.jpg"
                     className="img-fluid  about-img img-thumbnail"
                     alt="pic"
                   />
