@@ -55,3 +55,11 @@
 .card-brr {
     margin-right: 100px;
 }
+
+@media only screen and (max-width: 320px) {
+   
+    .skills-item {
+       
+        gap: 0px;
+      
+    }}
