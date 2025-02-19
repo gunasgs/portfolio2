@@ -16,19 +16,22 @@ function About() {
                 <div className="col-lg-7 me-5 ">
                   <ul className="about-ul">
                     <li>
-                      A highly result oriented Engineering graduate with strong
-                      understanding of client and server communication
-                    </li>
-
-                    <li>
-                      My field of Interest are building new Web Technologies,
-                      Products and also in areas related to Deep Learning and
-                      Natural Launguage Processing.
+                      Hello! I’m Gunaseelan, a passionate Software Developer
+                      with a knack for creating innovative solutions that solve
+                      real-world problems. I have a strong foundation in
+                      ReactJS.
                     </li>
                     <li>
-                      Whenever possible, I also apply my passion for developing
-                      products with NodeJS and Modern Javascript Library and
-                      Frameworks like ReactJS
+                      I thrive on turning ideas into functional and visually
+                      appealing applications. My journey as a Frontend Developer
+                      has equipped me with a diverse skill set and a commitment
+                      to continuous learning.
+                    </li>
+                    <li>
+                      Explore my work to see how I blend creativity with
+                      technology to deliver exceptional results. I am a highly
+                      result-oriented Engineering graduate with a strong
+                      understanding of client and server communication.
                     </li>
                   </ul>
 
@@ -45,7 +48,7 @@ function About() {
                 </div>
                 <div className="col-lg-4 ">
                   <img
-                    src="img/Guna photo.jpg"
+                    src="img/guna profile image.png"
                     className="img-fluid  about-img img-thumbnail"
                     alt="pic"
                   />
