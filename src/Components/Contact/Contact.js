@@ -49,7 +49,7 @@ function Contact() {
 
             <div>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31206.264032505303!2d78.13397448795166!3d12.126994408624059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac16f95a63ed01%3A0x3f2cb64e61c93aef!2sDharmapuri%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1655545742121!5m2!1sen!2sin"
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62220.71377643763!2d80.2209783!3d13.0826802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266c37aa5f4c5%3A0x3e7e8a3e5c6b8b0!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                 style={{
                   border: "0",
                   width: "100%",
@@ -69,7 +69,7 @@ function Contact() {
 
                     <h4>Location</h4>
 
-                    <p>Dharmapuri</p>
+                    <p>Chennai</p>
                   </div>
 
                   <div className="email">

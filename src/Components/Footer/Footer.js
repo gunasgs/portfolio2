@@ -6,15 +6,12 @@ function Footer() {
       <footer id="footer">
         <div className="container">
           <div className="copyright">
-            Designed by &copy;
-            <a
-              href="https://gunaseelan.netlify.com"
-              target="_blank"
-              rel="noreferrer"
-              className="ms-2"
-            >
-              Gunasgs
-            </a>
+           
+        <p>
+  © {new Date().getFullYear()} Guna Sgs. Built with React ❤️
+</p>
+
+
           </div>
         </div>
       </footer>

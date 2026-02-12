@@ -9,36 +9,25 @@ function About() {
           <section id="about" className="about mb-4 pb-3">
             <div className="container  mt-4 pt-4" data-aos="fade-up">
               <div className="section-title mt-lg-3 pt-lg-3 mb-4 ">
-                <h2>About</h2>
+                <h2>About Me</h2>
               </div>
 
               <div className="row mt-3  ">
                 <div className="col-lg-7 me-5 ">
                   <ul className="about-ul">
                     <li>
-                      Hello! I’m Gunaseelan, a passionate Software Developer
-                      with a knack for creating innovative solutions that solve
-                      real-world problems. I have a strong foundation in
-                      ReactJS.
+                 I’m a Frontend Developer with 3+ years of experience building scalable and high-performance web applications using React.js and Next.js. I specialize in modern frontend architecture, reusable component systems, and efficient state management. Over the years, I’ve worked on complex dashboards, multi-tenant platforms, and admin systems, focusing on clean code, performance optimization, and seamless RESTful API integration.
                     </li>
                     <li>
-                      I thrive on turning ideas into functional and visually
-                      appealing applications. My journey as a Frontend Developer
-                      has equipped me with a diverse skill set and a commitment
-                      to continuous learning.
+            I enjoy transforming Figma designs into responsive and accessible user interfaces while ensuring smooth user experiences across devices. I thrive in Agile environments, collaborating closely with designers and backend teams to deliver maintainable, user-centric solutions. I’m passionate about building reliable products that not only look good but also perform efficiently at scale.
                     </li>
-                    <li>
-                      Explore my work to see how I blend creativity with
-                      technology to deliver exceptional results. I am a highly
-                      result-oriented Engineering graduate with a strong
-                      understanding of client and server communication.
-                    </li>
+                 
                   </ul>
 
                   <div className="row ">
                     <div className="col-lg-12 d-flex justify-content-center mt-4 ">
                       <a
-                        href="https://drive.google.com/file/d/14xPpnW57oL6FLmm2wBbNkQWGtX9ylbp3/view?usp=share_link"
+                        href="https://drive.google.com/file/d/1nA4Jljg8qC_6BzUGHnet14NOFG1Kz2S_/view?usp=drive_link"
                         target="_blank "
                       >
                         <button className="btn-resume">View Resume</button>
@@ -48,9 +37,9 @@ function About() {
                 </div>
                 <div className="col-lg-4 ">
                   <img
-                    src="img/guna profile image.png"
-                    className="img-fluid  about-img img-thumbnail"
-                    alt="pic"
+                    src="img/profile.png"
+                    className="img-fluid mt-5  about-img img-thumbnail"
+                    alt="profile picture"
                   />
                 </div>
               </div>

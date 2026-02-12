@@ -1,162 +1,127 @@
-/*--------------------------------------------------------------
-  # project
-  --------------------------------------------------------------*/
-
-
-.card-container {
-    display: flex;
-    align-items: center;
+/* Layout */
+.projects {
+  display: flex;
+  justify-content: center;
 }
 
-.card-1 {
-
-    width: 300px;
-    height: 350px;
-    transform-style: preserve-3d;
-    transform: perspective(800px);
-    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
-    transition: 3s;
-    display: flex;
-    margin-bottom: 50px;
-    margin-left: 130px;
-    align-items: center;
-    justify-content: center;
-
+.project-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 60px 0;
+  width: 100%;
 }
 
-.card-1:hover {
-    transform: translateX(50%);
-
+/* Book Container */
+.book-card {
+  perspective: 1500px;
 }
 
-.imgBox {
-    position: relative;
-    width: 300px;
-    height: 350px;
-    z-index: 1;
-    transform-origin: left;
-    transform-style: preserve-3d;
-    cursor: pointer;
-    transition: 2s;
+/* Book */
+.book {
+  width: 300px;
+  height: 380px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease;
 }
 
+/* Background Layer */
+.book-bg {
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
 
-.card-1:hover .imgBox {
-    transform: rotateY(-180deg);
-
+  background: radial-gradient(circle at 20% 30%, #e3f2fd 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, #f3e5f5 0%, transparent 50%),
+    #f5f7fa;
 }
 
-.project-img {
-    position: absolute;
-    top: 30;
-    left: 0;
-    width: 300px;
-    height: 350px;
-    object-fit: cover;
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
-
+/* Cover */
+.book-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-origin: left;
+  transition: transform 1s ease;
+  z-index: 2;
+  backface-visibility: hidden;
 }
 
-
-
-.imgBox img:nth-child(2) {
-    transform: rotateY(180deg);
-
-
+.book-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
-.details {
-
-    width: 300px;
-    height: 350px;
-
-    display: flex;
-
-
+/* Content */
+.book-content {
+  position: absolute;
+  inset: 15px;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
 }
 
-.details .content {
-    display: flex;
-
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
+.book-content h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111;
+  letter-spacing: 0.4px;
 }
 
-.details .content h4 {
-    text-align: center;
-    font-weight: 700;
-    line-height: 1em;
+.book-content p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+  opacity: 0.9;
+  text-align: justify;
 }
 
 
 
 
-.project-icon {
-    display: flex;
-    align-items: center;
 
-    font-size: 47px;
-    cursor: pointer;
+
+/* Button */
+.live-btn {
+  text-align: center;
+  padding:5px 10px;
+  border-radius: 8px;
+  background: #34B7A7;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
 }
 
-.des {
-    width: fit-content;
-    margin: 0;
-    padding: 0px 10px;
-    padding-left: 25px;
-    font-size: 15px;
-    text-align: justify;
-    line-height: 25px;
-    font-weight: 500;
+.live-btn:hover {
+ color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
-.iconn {
-    background: rgba(255, 255, 255, 0.7);
-    color: #ffff;
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    border-radius: 48%;
-    padding: 0px 5px;
-    margin-right: 1px;
+/* Open Animation */
+.book-card:hover .book-cover {
+  transform: rotateY(-160deg);
 }
 
 
-.img-icon {
-    width: 60px;
-    margin-bottom: 10px;
-}
 
-.btn-group>.btn {
-    font-weight: 600;
-    font-size: 16px;
-    border-radius: 50px;
-}
+/* Mobile */
+@media (max-width: 768px) {
+  .project-box {
+    width: 95%;
+  }
 
-.btn-group>.btn:hover {
-    background-color: #3dc8b7;
-    color: #fff;
-}
-
-
-@media only screen and (max-width:795px) {
-    .card-1:hover {
-        transform: translateX(0%);
-
-    }
-
-    .imgBox img:nth-child(2) {
-        display: none;
-    }
-
-}
-
-@media only screen and (max-width: 800px) {
-
-    .card-1 {
-        margin: auto;
-        margin-bottom: 50px;
-
-    }
+  .book-card:hover .book-cover {
+    transform: none;
+  }
 }

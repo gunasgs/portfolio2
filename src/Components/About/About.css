@@ -11,7 +11,7 @@
     list-style: none;
     text-align: justify;
     letter-spacing: .5px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     line-height: 35px;
     font-size: 19px;
     font-weight: 500;
@@ -57,7 +57,7 @@
     background: #34b7a7;
     color: rgb(0, 0, 0);
 }
-.about-img{
-    
-    height: 90% !important;
+.about-img {
+  max-width: 100%;
+  height: auto;
 }

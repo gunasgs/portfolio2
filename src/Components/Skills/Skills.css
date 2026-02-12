@@ -1,65 +1,84 @@
-/*--------------------------------------------------------------
-  # Skills
-  --------------------------------------------------------------*/
+.skills {
+    padding: 80px 0;
+    position: relative;
+}
 
+/* Center entire content */
+.skills-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+}
 
-.skills-item {
+.skill-box {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 
+}
+
+/* Categories stacked cleanly */
+.skills-category {
+    display: flex;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.category-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* Proper Grid Inside Category */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 140px));
     gap: 30px;
     justify-content: center;
-    align-items: center;
+    /* centers entire grid */
 }
 
-.skill-card {
-    width: -webkit-max-content;
-    width: max-content;
-    padding: 0px 30px;
-    height: 140px;
+.skill-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
+    width: 60vw;
+    margin-top: 8%;
+    gap: 10%;
+
+
 }
 
-.skill-card:hover {
-    transform: scale(1.1);
-    transition: all .1s ease;
+/* Skill Card */
+.skill-card {
+    width: 140px;
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 .skill-icon {
-    font-size: 70px;
-    color: #ffff;
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    padding: 0 5px;
-
+    font-size: 48px;
+    margin-bottom: 10px;
 }
-
-
 
 .skill-name {
-    font-size: 18px;
-    color: rgb(112, 112, 112);
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    font-weight: 400;
+    font-size: 14px;
 }
 
-
-.card-br {
-    margin-left: 100px;
+.skill-image {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+    object-fit: contain;
 }
 
-.card-brr {
-    margin-right: 100px;
-}
-
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) {
    
-    .skills-item {
-       
-        gap: 0px;
+    .skill-row {
+    display:flex;
+    width:100vw
       
     }}

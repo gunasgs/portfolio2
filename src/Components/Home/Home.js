@@ -18,7 +18,7 @@ function Home() {
             data-aos-delay="100"
           >
             <Zoom top cascade>
-              <h1 className="home-h1">GUNASEELAN</h1>
+              <h1 className="home-h1">GUNASEELAN S</h1>
             </Zoom>
             <Zoom top cascade>
               <div className="home-h3">
